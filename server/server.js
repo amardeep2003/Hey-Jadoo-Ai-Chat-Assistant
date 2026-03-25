@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 // app.use(cors());
 app.use(cors({
-  origin: "https://hey-jadoo-ai-chat-assistant.netlify.app/"
+  origin: "https://hey-jadoo-ai-chat-assistant.netlify.app"
 }));
 app.use(express.json());
 
